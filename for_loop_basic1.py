@@ -39,7 +39,7 @@ for c in range(1, 101):
 
 print("Whoa. That Sucker's Huge!")
 sum = 0 
-for y in range(0, 500000):
+for y in range(0, 500001, 2):
     sum += y
 print(sum)
 
@@ -55,8 +55,8 @@ for z in range(2018, 0, -4):
 print("Flexible Counter")
 
 lowNum = 2
-highNum = 10
+highNum = 9
 mult = 3
-for f in range(lowNum, highNum):
+for f in range(lowNum, highNum + 1):
     if f % mult == 0:
         print(f)
