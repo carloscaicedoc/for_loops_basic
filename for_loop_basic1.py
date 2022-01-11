@@ -39,7 +39,7 @@ for c in range(1, 101):
 
 print("Whoa. That Sucker's Huge!")
 sum = 0 
-for y in range(0, 500001, 2):
+for y in range(1, 500001, 2):
     sum += y
 print(sum)
 
